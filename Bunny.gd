@@ -11,5 +11,4 @@ func _physics_process(_delta):
 	elif dir == 1:
 		print(1)
 		motion.x = -speed
-	
 	move_and_slide(motion)
